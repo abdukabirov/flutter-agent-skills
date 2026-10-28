@@ -6,7 +6,7 @@ Tested 2026-10-27 on XE-Rate at app `main` commit `d544e1a`. Four separate agent
 
 ## Method
 
-Before any run, the app's Android release configuration was inspected in `main` and recorded in `C:\Users\abduk\Documents\ab-rc-ground-truth.md`. The ground truth identified a debug release signer, a template `com.example.x_rate` application ID, a placeholder Android label, and an ignored local API-key file absent from clean worktrees. The main manifest already had `INTERNET`; signing files were already covered by `android/.gitignore`; version values were derived from `pubspec.yaml`.
+Before any run, the app's Android release configuration was inspected in `main` and recorded in the external artifact `ab-rc-ground-truth.md`. The ground truth identified a debug release signer, a template `com.example.x_rate` application ID, a placeholder Android label, and an ignored local API-key file absent from clean worktrees. The main manifest already had `INTERNET`; signing files were already covered by `android/.gitignore`; version values were derived from `pubspec.yaml`.
 
 Two independent pairs used the same task and rules. The "with" worktrees alone received the edited skill. Each run's findings, analyzer output, and diff were saved separately. A reviewer compared findings and diffs to the ground truth. No credentials or keystores were created, no API-key contents were accessed, and the app's `main` was not changed.
 

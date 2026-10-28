@@ -6,7 +6,7 @@ Tested 2026-10-27 on XE-Rate at app `main` commit `d544e1a`. Four independent Gi
 
 ## Method
 
-Two independent pairs of agent runs used the same review task and rules. Each run inspected `lib/`, reported findings, applied up to three selected fixes, ran `dart format` and `flutter analyze`, and saved its findings and diff under `C:\Users\abduk\Documents`. A separate reviewer opened the cited source locations in each baseline worktree and classified the claims. No commits were made; app `main` remained at `d544e1a`.
+Two independent pairs of agent runs used the same review task and rules. Each run inspected `lib/`, reported findings, applied up to three selected fixes, ran `dart format` and `flutter analyze`, and saved its findings and diff as external experiment artifacts. A separate reviewer opened the cited source locations in each baseline worktree and classified the claims. No commits were made; app `main` remained at `d544e1a`.
 
 ## Results
 

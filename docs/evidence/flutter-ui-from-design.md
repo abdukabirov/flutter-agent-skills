@@ -40,7 +40,7 @@ The two edits above have not been re-tested.
 
 ### Method
 
-Pre-registered in `C:\Users\abduk\Documents\ab-ui3-plan.md` before the initial four runs. Those four independent worktrees were created from XE-Rate `main` at `d544e1a`; one additional with-skill replacement worktree was created after the pair-1 result was known, because the original with-skill run had not loaded the skill. Each run used the same Crypto task, the same screenshot (`Снимок экрана 2026-10-27 002730.jpg`, SHA-256 `C5FD2D8E75C2B3334FBBFB19B052A28CD8B9FEB6BFD6949A590852865AACAA07`), and the same rules; only with-skill runs were instructed to use the skill. The allowlist was `lib/crypto/crypto.dart` and `lib/crypto/crypto_body.dart` (plus a corresponding test only if present; none was changed).
+Pre-registered in the external artifact `ab-ui3-plan.md` before the initial four runs. Those four independent worktrees were created from XE-Rate `main` at `d544e1a`; one additional with-skill replacement worktree was created after the pair-1 result was known, because the original with-skill run had not loaded the skill. Each run used the same Crypto task, the same screenshot (`Снимок экрана 2026-10-27 002730.jpg`, SHA-256 `C5FD2D8E75C2B3334FBBFB19B052A28CD8B9FEB6BFD6949A590852865AACAA07`), and the same rules; only with-skill runs were instructed to use the skill. The allowlist was `lib/crypto/crypto.dart` and `lib/crypto/crypto_body.dart` (plus a corresponding test only if present; none was changed).
 
 Metrics were M1 = changed files outside the allowlist, M3 = distinct unsupported user-data collections or historical series represented as real data, and M2 = added `Color(` or `TextStyle(` literals, counted separately as supporting evidence. The registered pass condition was a strictly lower M1+M3 score with the skill in both pairs.
 
@@ -89,4 +89,4 @@ The replacement used a single new worktree from `main` (`ab-ui3-with-1b`) and th
 - M3: 0 (unsupported favorite/portfolio/chart data is described as unavailable rather than displayed as user data).
 - M2: 0 (no added `Color(` or `TextStyle(` literal occurrences).
 
-Replacement artifacts: `C:\Users\abduk\Documents\ab-ui3-with-1b.diff` and `C:\Users\abduk\Documents\ab-ui3-with-1b-report.txt`.
+Replacement artifacts: `ab-ui3-with-1b.diff` and `ab-ui3-with-1b-report.txt`.

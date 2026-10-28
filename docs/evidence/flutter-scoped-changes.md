@@ -6,9 +6,9 @@ Tested 2026-10-27 on XE-Rate at app `main` commit `d544e1a`. Four independent ag
 
 ## Method
 
-Before any run, the task, allowlist, metrics, and verdict rule were saved to `C:\Users\abduk\Documents\ab-sc-plan.md`.
+Before any run, the task, allowlist, metrics, and verdict rule were saved in the external artifact `ab-sc-plan.md`.
 
-The task was to show `Last updated: <local time>` below the Currency rates list after a successful fetch, using the local time recorded on fetch completion. The allowlist was `lib/currency/currency.dart`; the project had no `test/` directory. Two runs used the skill and two did not, each in a separate worktree from `main`. Diffs and final reports were saved under `C:\Users\abduk\Documents`. A separate reviewer scored the four diffs and reports. The skill was not edited after runs started.
+The task was to show `Last updated: <local time>` below the Currency rates list after a successful fetch, using the local time recorded on fetch completion. The allowlist was `lib/currency/currency.dart`; the project had no `test/` directory. Two runs used the skill and two did not, each in a separate worktree from `main`. Diffs and final reports were saved as external experiment artifacts. A separate reviewer scored the four diffs and reports. The skill was not edited after runs started.
 
 ## Results
 
